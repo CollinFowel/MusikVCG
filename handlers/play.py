@@ -510,7 +510,7 @@ async def play(_, message: Message):
                 ],                     
                 [
                     InlineKeyboardButton(
-                        "Owner Musik VCG", url="https://t.me/ccwoyx"
+                        "**Join Group**", url="https://t.me/IMPR0B4BL3"
                     )
                 ],
                 [       
@@ -645,7 +645,7 @@ async def deezer(client: Client, message_: Message):
                 ],                     
                 [
                     InlineKeyboardButton(
-                        "Owner Musik VCG", url="https://t.me/ccwoyx"
+                        "**Join Group**", url="https://t.me/IMPR0B4BL3"
                     )
                 ],
                 [       
@@ -781,7 +781,7 @@ async def jiosaavn(client: Client, message_: Message):
                 ],                     
                 [
                     InlineKeyboardButton(
-                        "Owner Musik VCG", url="https://t.me/ccwoyx"
+                        "**Join Group**", url="https://t.me/IMPR0B4BL3"
                     )
                 ],
                 [       
