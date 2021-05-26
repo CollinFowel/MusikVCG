@@ -24,5 +24,5 @@ from pyrogram.types import Chat, Message, User
 
 @USER.on_message(filters.text & filters.private & ~filters.me & ~filters.bot)
 async def pmPermit(client: USER, message: Message):
-  await USER.send_message(message.chat.id,"Halo, Apa yang dapat bot ini lakukan ? 🤔 \n\n \n\n 🇮🇩 Bot ini dapat memutar lagu yang kamu mau pada telepon grup \n\n \n\n 🇬🇧 This bot can play the song you want in the voice call group \n\n \n\n ⚠️ How to use / bagaimana cara menggunakan bot ini ? ↓ \n\n \n\n Read / Baca → @MusikVcgChannel ← \n\n \n\n 👤 **Own :** @ccwoyx 🇮🇩 \n\n \n\n #️⃣ **CATATAN : BATAS DURASI MUSIK TIDAK BOLEH LEBIH DARI 15 MENIT DAN KALO ERROR SILAHKAN LAPOR KE** @MusikVCGSupport")
+  await USER.send_message(message.chat.id,"Halo, Apa yang dapat bot ini lakukan ? 🤔 \n\n \n\n 🇮🇩 Bot ini dapat memutar lagu yang kamu mau pada telepon grup \n\n \n\n 🇬🇧 This bot can play the song you want in the voice call group \n\n \n\n ⚠️ How to use / bagaimana cara menggunakan bot ini ? ↓ \n\n \n\n Read / Baca → @MusikVcgChannel ← \n\n \n\n 👤 **Own :** @CollinFowel 🇮🇩 \n\n \n\n #️⃣ **CATATAN : BATAS DURASI MUSIK TIDAK BOLEH LEBIH DARI 15 MENIT DAN KALO ERROR SILAHKAN LAPOR KE** @MusikVCGSupport")
   return                        
