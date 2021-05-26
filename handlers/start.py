@@ -23,7 +23,7 @@ from config import BOT_NAME as bn
 @Client.on_message(filters.command("start") & filters.private & ~filters.channel)
 async def start(_, message: Message):
     await message.reply_text(
-        f"""Halo, Apa yang dapat bot ini lakukan ? 🤔.\n\n🇮🇩 Bot ini dapat memutar lagu yang kamu mau pada telepon grup.\n\n🇬🇧 This bot can play the song you want in the voice call group.\n\n⚠️ How to use / bagaimana cara menggunakan bot ini ? ↓.\n\nRead / Baca → [Panduan menggunakan bot](https://t.me/MusikVcgChannel) ←.\n\n👤 Own [Repi](https://t.me/ccwoyx)🇮🇩""",
+        f"""Halo, Apa yang dapat bot ini lakukan ? 🤔.\n\n🇮🇩 Bot ini dapat memutar lagu yang kamu mau pada telepon grup.\n\n🇬🇧 This bot can play the song you want in the voice call group.\n\n⚠️ How to use / bagaimana cara menggunakan bot ini ? ↓.\n\nRead / Baca → [Panduan menggunakan bot](https://t.me/MusikVcgChannel) ←.\n\n👤 Own [Repi](https://t.me/CollinFowel)🇮🇩""",
         reply_markup=InlineKeyboardMarkup(
             [ 
                 [
@@ -69,7 +69,7 @@ async def gstart(_, message: Message):
                         "Group Support", url="https://t.me/MusikVCGSupport"
                     ),
                     InlineKeyboardButton(
-                        "Owner", url="https://t.me/ccwoyx"
+                        "Owner", url="https://t.me/CollinFowel"
                     )
                 ]
             ]
