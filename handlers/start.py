@@ -52,7 +52,7 @@ async def gstart(_, message: Message):
                         "Group Support", url="https://t.me/MusikVCGSupport"
                     ),
                     InlineKeyboardButton(
-                        "Owner", url="https://t.me/ccwoyx"
+                        "Owner", url="https://t.me/CollinFowel"
                     )
                 ]
             ]
